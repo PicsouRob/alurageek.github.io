@@ -9,6 +9,7 @@ const showProductContent = async (category, querySelector) => {
     const data = await getProductByCategory(category);
     
     data.forEach(element => { 
+        console.log(element);
         const newProduct = productContent(element);
         querySelector.innerHTML += newProduct;
     });

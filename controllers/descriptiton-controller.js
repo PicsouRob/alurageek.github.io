@@ -2,7 +2,6 @@ import { getProductByCategory, getProductById, productContent } from "../service
 
 const queryParam = new URLSearchParams(window.location.search);
 const id = queryParam.get('id');
-let type;
 
 const getProductContent = ({ name, price, id, image, desc }) => {
     const content = `

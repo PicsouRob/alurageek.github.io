@@ -1,19 +1,32 @@
 import { v4 as uuidv4 } from '../node_modules/uuid/dist/esm-browser/index.js';
 
 export const getAllProducts = async () => {
-     const data = await fetch('https://picsourob.github.io/alurageek.github.io/products', {
-         headers: {
-             "Content-Type": "application/json",
+    try {
+        const data = await fetch('http://localhost:3000/products', {
+            headers: {
+                "Content-Type": "application/json",   
+            }
+        });
+        
+        if (!data.ok) {
+            throw new Error(`HTTP error! Status: ${data.status}`);
         }
-     });
-     
-    const response = data.json();
-    
-    return response;
+        
+        const response = await data.json();
+        
+        return response;
+    } catch (error) {
+        console.error(error);
+        return [];
+    }
 }
 
 export const getProductById = async (id) => {
-    const data = await fetch(`https://picsourob.github.io/alurageek.github.io/products/${id}`);
+    const data = await fetch(`http://localhost:3000/products/${id}`, {
+        headers: {
+            "Content-Type": "application/json",   
+        }
+    });
      
     const response = data.json();
     
@@ -22,7 +35,7 @@ export const getProductById = async (id) => {
 
 export const addProduct = async (data) => {
     const uniqueId = uuidv4();
-    const response = await fetch('https://picsourob.github.io/alurageek.github.io/products', {
+    const response = await fetch('http://localhost:3000/products', {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
@@ -52,7 +65,7 @@ export const productContent = ({ name, price, id, image }) => {
 
 export const getProductByCategory = async (productType) => {
     try {
-        const response = await fetch(`https://picsourob.github.io/alurageek.github.io/products?type=${productType}`);
+        const response = await fetch(`http://localhost:3000/products?type=${productType}`);
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
         }

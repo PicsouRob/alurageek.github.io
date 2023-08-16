@@ -1,0 +1,175 @@
+{
+  "products": [
+        {
+            "id": "1",
+            "name": "Stormtrooper",
+            "price": "$ 25.00",
+            "image": "images/1.png",
+            "type": "Star Wars",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt veritatis a eveniet eligendi libero atque ad sint suscipit neque molestiae. Deleniti, minus ea. Aperiam quas iusto fugit, enim nesciunt dolores?"
+        },
+        {
+            "id": "2",
+            "name": "Darth Vader",
+            "price": "$ 76.00",
+            "image": "images/2.png",
+            "type": "Star Wars",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt veritatis a eveniet eligendi libero atque ad sint suscipit neque molestiae. Deleniti, minus ea. Aperiam quas iusto fugit, enim nesciunt dolores?"
+        },
+        {
+            "id": "3",
+            "name": "Jabba",
+            "price": "$ 25.65",
+            "image": "images/3.png",
+            "type": "Star Wars",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt veritatis a eveniet eligendi libero atque ad sint suscipit neque molestiae. Deleniti, minus ea. Aperiam quas iusto fugit, enim nesciunt dolores?"
+        },
+        {
+            "name": "Stormtrooper 2",
+            "image": "images/4.png",
+            "price": "$ 34.56",
+            "type": "Star Wars",
+            "desc": "¡Felicidades por finalizar la formación Front-end de Alura! Ese es solo tu primer paso en un océano de herramientas que podemos usar para crear aplicaciones modernas que transforman la vida de las personas.¡Felicidades por finalizar la formación Front-end de Alura! Ese es solo tu primer paso en un océano de herramientas que podemos usar para crear aplicaciones modernas que transforman la vida de las personas.",
+            "id": "22a4bb52-7c26-4043-9418-a2dc69bcaedf"
+        },
+        {
+            "id": "6",
+            "name": "Yoda",
+            "price": "$ 55.00",
+            "image": "images/5.png",
+            "type": "Star Wars",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt veritatis a eveniet eligendi libero atque ad sint suscipit neque molestiae. Deleniti, minus ea. Aperiam quas iusto fugit, enim nesciunt dolores?"
+        },
+        {
+            "id": "7",
+            "name": "Kylo Ren",
+            "price": "$ 35.00",
+            "image": "images/6.png",
+            "type": "Star Wars",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt veritatis a eveniet eligendi libero atque ad sint suscipit neque molestiae. Deleniti, minus ea. Aperiam quas iusto fugit, enim nesciunt dolores?"
+        },
+        {
+            "id": "8",
+            "name": "PS5 manette",
+            "price": "$ 68.60",
+            "image": "images/7.png",
+            "type": "Consolas",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt veritatis a eveniet eligendi libero atque ad sint suscipit neque molestiae. Deleniti, minus ea. Aperiam quas iusto fugit, enim nesciunt dolores?"
+        },
+        {
+            "name": "PSG complet",
+            "image": "images/8.png",
+            "price": "$ 245.00",
+            "type": "Consolas",
+            "desc": "¡Felicidades por finalizar la formación Front-end de Alura! Ese es solo tu primer paso en un océano de herramientas que podemos usar para crear aplicaciones modernas que transforman la vida de las personas.¡Felicidades por finalizar la formación Front-end de Alura! Ese es solo tu primer paso en un océano de herramientas que podemos usar para crear aplicaciones modernas que transforman la vida de las personas.",
+            "id": "22a4bb52-7c26-4043-9418-a2dc69bcaedf"
+        },
+        {
+            "id": "10",
+            "name": "Nitendo",
+            "price": "$ 250.00",
+            "image": "images/9.png",
+            "type": "Consolas",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt veritatis a eveniet eligendi libero atque ad sint suscipit neque molestiae. Deleniti, minus ea. Aperiam quas iusto fugit, enim nesciunt dolores?"
+        },
+        {
+            "id": "10",
+            "name": "Nitendo manette",
+            "price": "$ 15.00",
+            "image": "images/10.png",
+            "type": "Consolas",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt veritatis a eveniet eligendi libero atque ad sint suscipit neque molestiae. Deleniti, minus ea. Aperiam quas iusto fugit, enim nesciunt dolores?"
+        },
+        {
+            "id": "11",
+            "name": "PS$",
+            "price": "$ 175.00",
+            "image": "images/11.png",
+            "type": "Consolas",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt veritatis a eveniet eligendi libero atque ad sint suscipit neque molestiae. Deleniti, minus ea. Aperiam quas iusto fugit, enim nesciunt dolores?"
+        },
+        {
+            "name": "Vintage game",
+            "image": "images/12.png",
+            "price": "$ 94.56",
+            "type": "Consolas",
+            "desc": "¡Felicidades por finalizar la formación Front-end de Alura! Ese es solo tu primer paso en un océano de herramientas que podemos usar para crear aplicaciones modernas que transforman la vida de las personas.¡Felicidades por finalizar la formación Front-end de Alura! Ese es solo tu primer paso en un océano de herramientas que podemos usar para crear aplicaciones modernas que transforman la vida de las personas.",
+            "id": "22a4bb52-7c26-4043-9418-a2dc69bcaedf"
+        },
+        {
+            "id": "13",
+            "name": "Chi game",
+            "price": "$ 22.20",
+            "image": "images/13.png",
+            "type": "Diversos",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt veritatis a eveniet eligendi libero atque ad sint suscipit neque molestiae. Deleniti, minus ea. Aperiam quas iusto fugit, enim nesciunt dolores?"
+        },
+        {
+            "id": "14",
+            "name": "Manette",
+            "price": "$ 32.00",
+            "image": "images/14.png",
+            "type": "Diversos",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt veritatis a eveniet eligendi libero atque ad sint suscipit neque molestiae. Deleniti, minus ea. Aperiam quas iusto fugit, enim nesciunt dolores?"
+        },
+        {
+            "id": "15",
+            "name": "sonic",
+            "price": "$ 43.80",
+            "image": "images/15.png",
+            "type": "Diversos",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt veritatis a eveniet eligendi libero atque ad sint suscipit neque molestiae. Deleniti, minus ea. Aperiam quas iusto fugit, enim nesciunt dolores?"
+        },
+        {
+            "name": "Radio",
+            "image": "images/16.png",
+            "price": "$ 34.56",
+            "type": "Diversos",
+            "desc": "¡Felicidades por finalizar la formación Front-end de Alura! Ese es solo tu primer paso en un océano de herramientas que podemos usar para crear aplicaciones modernas que transforman la vida de las personas.¡Felicidades por finalizar la formación Front-end de Alura! Ese es solo tu primer paso en un océano de herramientas que podemos usar para crear aplicaciones modernas que transforman la vida de las personas.",
+            "id": "22a4bb52-7c26-4043-9418-a2dc69bcaedf"
+        },
+        {
+            "id": "17",
+            "name": "Casque",
+            "price": "$ 76.00",
+            "image": "images/17.png",
+            "type": "Diversos",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt veritatis a eveniet eligendi libero atque ad sint suscipit neque molestiae. Deleniti, minus ea. Aperiam quas iusto fugit, enim nesciunt dolores?"
+        },
+        {
+            "id": "18",
+            "name": "Poupee",
+            "price": "$ 95.25",
+            "image": "images/18.png",
+            "type": "Diversos",
+            "desc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt veritatis a eveniet eligendi libero atque ad sint suscipit neque molestiae. Deleniti, minus ea. Aperiam quas iusto fugit, enim nesciunt dolores?"
+        }
+  ],
+  "users": [
+    {
+      "id": "kskjkjk",
+      "email": "phanordroberto13@gmail.com",
+      "password": "password"
+    },
+    {
+      "email": "exampleemail@gmail.com",
+      "password": "fdghtrtrtghghgh",
+      "id": "5cc8f2e0-7375-47ff-8c83-dc8ab8848acb"
+    },
+    {
+      "email": "fgdgkkkjhjhgjhjffg@dff.fr",
+      "password": "fgdfgdfgfjfhgfh",
+      "id": "f189f456-4473-46dd-9182-71538819f4be"
+    },
+    {
+      "email": "www.phanordpicsouroberto11@gmail.com",
+      "password": "fdghfghgfdg",
+      "id": "dda0e12e-e990-4814-adc3-aed6730b1432"
+    },
+    {
+      "email": "p.roberto@unapec.edu.do",
+      "password": "gdgdgfgfghfg",
+      "id": "988c48a8-05d3-48b6-b056-85fa83933d92"
+    }
+  ]
+}

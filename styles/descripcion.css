@@ -1,0 +1,46 @@
+.descripcion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25;
+    margin-bottom: 30px;
+}
+
+.text-descripcion {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+}
+
+.text-descripcion .precio {
+    font-weight: 600;
+}
+
+.descripcion img {
+    width: 100%;
+    height: 200px;
+}
+
+@media screen and (min-width: 768px) {
+    .descripcion {
+        flex-direction: row;
+        gap: 30px;
+        margin-bottom: 50px;
+    }
+    
+    .descripcion img {
+        width: 50%;
+        height: 400px;
+    }
+    
+    .text-descripcion {
+        width: 500px;
+        height: 300px;
+    }
+    
+    .text-descripcion h1 {
+        font-size: 40px;
+    }
+}

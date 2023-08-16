@@ -1,0 +1,54 @@
+.agregar-content {
+    max-width: 40rem;
+    margin: auto;
+    padding: 30px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(23, 23, 23);
+    font-weight: 300;
+    text-align: justify;
+}
+
+.agregar-input {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    background: #ffffff;
+    border-bottom: 1px solid gray;
+    padding: 10px 10px 0 10px;
+    box-shadow:  39px 39px 100px #e3e3e3,
+                 -39px -39px 100px #ffffff;
+}
+
+.agregar-input input {
+    width: 100%;
+}
+
+.agregar-input span {
+    color: gray;
+    font-size: 13px;
+}
+
+.agregar-content input {
+    height: 35px;
+    padding: 10px 0px;
+    font-size: 16px;
+    background: transparent;
+    border: none;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    font-size: 17px;
+}
+
+.agregar-content textarea {
+    height: 150px;
+}
+
+@media screen and (min-width: 768px) {
+    .agregar-content {
+        padding: 70px 24px;
+    }
+}

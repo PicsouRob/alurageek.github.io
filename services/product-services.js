@@ -1,7 +1,7 @@
 import { v4 as uuidv4 } from '../node_modules/uuid/dist/esm-browser/index.js';
 
 export const getAllProducts = async () => {
-     const data = await fetch('http://localhost:3000/products', {
+     const data = await fetch('https://picsourob.github.io/alurageek.github.io/products', {
          headers: {
              "Content-Type": "application/json",
         }
@@ -13,7 +13,7 @@ export const getAllProducts = async () => {
 }
 
 export const getProductById = async (id) => {
-    const data = await fetch(`http://localhost:3000/products/${id}`);
+    const data = await fetch(`https://picsourob.github.io/alurageek.github.io/products/${id}`);
      
     const response = data.json();
     
@@ -22,7 +22,7 @@ export const getProductById = async (id) => {
 
 export const addProduct = async (data) => {
     const uniqueId = uuidv4();
-    const response = await fetch('http://localhost:3000/products', {
+    const response = await fetch('https://picsourob.github.io/alurageek.github.io/products', {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
@@ -52,7 +52,7 @@ export const productContent = ({ name, price, id, image }) => {
 
 export const getProductByCategory = async (productType) => {
     try {
-        const response = await fetch(`http://localhost:3000/products?type=${productType}`);
+        const response = await fetch(`https://picsourob.github.io/alurageek.github.io/products?type=${productType}`);
         if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
         }

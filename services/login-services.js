@@ -2,7 +2,7 @@ import { v4 as uuidv4 } from '../node_modules/uuid/dist/esm-browser/index.js';
 
 export const userLogin = async (email, password) => {
     const uniqueId = uuidv4();
-    const response = await fetch('http://localhost:3000/users', {
+    const response = await fetch('https://picsourob.github.io/alurageek.github.io/users', {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
